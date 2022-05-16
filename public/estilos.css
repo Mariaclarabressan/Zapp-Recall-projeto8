@@ -1,0 +1,72 @@
+.Home-Screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FB6B6B;    
+    height: 607px;
+}
+.start-game {
+    width: 246px;
+    height: 54px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: #D70900 1px;
+    color: #D70900;
+    font-size: 18px;
+    font-family: 'roboto';
+    align-items: center;   
+
+}
+
+.title{
+    width: 257px;
+    height: 59px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    
+}
+.deck-cards{
+    background-color: #FB6B6B;
+
+}
+.deck-cards h1{
+    display: flex;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+.deck-cards topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed; 
+}
+.deck-cards img{
+    width: 52px;
+    height: 30px;
+}
+.unit-card{
+    width:300px ;
+    height: 65px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.icone{
+    width: 10px;
+}
+body{
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
